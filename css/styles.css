@@ -11,3 +11,14 @@ h3{
   text-align: center;
 }
 
+#red {
+  color: red; 
+}
+
+#blue {
+  color: blue;
+}
+
+#transformer {
+  transform: translate(110%);
+}

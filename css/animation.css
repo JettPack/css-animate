@@ -1,0 +1,27 @@
+#rotate {
+  transform: rotate(45deg);
+}
+
+#skew {
+  transform: skew(120deg);
+}
+
+#all {
+  transform: rotate(290deg);
+  transform: skew(60deg);
+}
+
+@keyframes Move {
+  0% {opacity: 0;}
+  0% {transform: translate(500%);}
+  10% {opacity: 1;}
+  15% {opacity: 0;}
+  25% {opacity: 1;}
+  25% {transform: rotate(180deg);}
+  50% {transform: rotate(90deg);}
+  60% {opacity: 0;}
+}
+
+#animate {
+  animation: Move 7s infinite;
+}
